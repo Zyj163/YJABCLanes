@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YJABCLanes'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YJABCLanes.'
+  s.summary          = '弹幕视图'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+简单的弹幕视图
                        DESC
 
   s.homepage         = 'https://github.com/Zyj163/YJABCLanes'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Zyj163' => 'zhangyongjun@pj-l.com' }
+  s.author           = { 'Zyj163' => 'zyj194250@163.com' }
   s.source           = { :git => 'https://github.com/Zyj163/YJABCLanes.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'YJABCLanes/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'YJABCLanes' => ['YJABCLanes/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end

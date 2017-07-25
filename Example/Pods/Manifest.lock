@@ -1,0 +1,16 @@
+PODS:
+  - YJABCLanes (0.1.0)
+
+DEPENDENCIES:
+  - YJABCLanes (from `../`)
+
+EXTERNAL SOURCES:
+  YJABCLanes:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YJABCLanes: f8dfa34f9dd6240b9198896c9faa6af8245acb09
+
+PODFILE CHECKSUM: 82cd3efc789ceae62ef13ac65beb0b2754177c9a
+
+COCOAPODS: 1.2.1

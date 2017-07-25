@@ -1,0 +1,6 @@
+framework module YJABCLanes {
+  umbrella header "YJABCLanes-umbrella.h"
+
+  export *
+  module * { export * }
+}
