@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YJABCLanes_Example' do
+  pod 'YJABCLanes', :path => '../'
+
+  target 'YJABCLanes_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
